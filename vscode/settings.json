@@ -1,118 +1,119 @@
 {
-    // Config Editor
-    "editor.fontSize": 16,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.mouseWheelZoom": true,
-    "editor.renderWhitespace": "selection",
-    "editor.cursorBlinking": "expand",
-    "editor.guides.bracketPairs": true,
-    
-    // Config Workbench
-    "workbench.tree.indent": 14,
-    "workbench.startupEditor": "none",
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "symbols",
-    
-    // Config Files
-    "files.autoSave": "afterDelay",
-    "files.associations": {
-      ".env.production": "properties"
-    },
-    "files.exclude": {
-      "**/.git": false,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/Thumbs.db": true
-    },
-    
-    // Config NoteBook
-    "notebook.lineNumbers": "on",
-    
-    // Config Debug
-    "debug.inlineValues": "on",
-    
-    // Config Explorer
-    "explorer.confirmDragAndDrop": false,
-    "explorer.compactFolders": false,
-    
-    // Config Symbols
-    "symbols.hidesExplorerArrows": false,
-    "symbols.folders.associations": {
-      "venv": "folder-green",
-      ".venv": "folder-green",
-      "docs": "folder-blue"
-    },
-    
-    // Config Termianal
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.splitCwd": "initial",
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "FiraCode NF",
-    "terminal.integrated.enableImages": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorWidth": 2,
-    "terminal.integrated.suggest.enabled": true,
-    "terminal.integrated.suggest.enableExtensionCompletions": true,
-    "terminal.integrated.cursorStyleInactive": "line",
-    "terminal.integrated.fontWeight": "bold",
-    "terminal.integrated.profiles.windows": {
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell",
-        "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-        "args": [
-          "-NoLogo"
-        ]
-      }
-    },
-    // Config Langs
-    "[python]": {
-      "editor.formatOnType": true
-    },
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "biomejs.biome"
-    },
-    "emmet.includeLanguages": {
-      "django-html": "html"
-    },
+  // Config Editor
+  "editor.fontSize": 17,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.mouseWheelZoom": true,
+  "editor.renderWhitespace": "selection",
+  "editor.cursorBlinking": "expand",
+  "editor.guides.bracketPairs": true,
   
+  // Config Workbench
+  "workbench.tree.indent": 14,
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
   
-    // Config Style
-    "editor.lineHeight": 1.6,
-    "editor.renderLineHighlight": "gutter",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.fontWeight": "bold",
-    "workbench.editor.labelFormat": "short",
-    "workbench.colorTheme": "Tokyo Night",
-    "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false,
-    "window.commandCenter": false,
-    "explorer.fileNesting.patterns": {
-      "*.ts": "${capture}.js",
-      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-      "*.jsx": "${capture}.js",
-      "*.tsx": "${capture}.ts",
-      "tsconfig.json": "tsconfig.*.json",
-      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-      "*.sqlite": "${capture}.${extname}-*",
-      "*.db": "${capture}.${extname}-*",
-      "*.sqlite3": "${capture}.${extname}-*",
-      "*.db3": "${capture}.${extname}-*",
-      "*.sdb": "${capture}.${extname}-*",
-      "*.s3db": "${capture}.${extname}-*"
-    },
+  // Config Files
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    ".env.production": "properties"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  
+  // Config NoteBook
+  "notebook.lineNumbers": "on",
+  
+  // Config Debug
+  "debug.inlineValues": "on",
+  
+  // Config Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  
+  // Config Symbols
+  "symbols.hidesExplorerArrows": false,
+  "symbols.folders.associations": {
+    "venv": "folder-green",
+    ".venv": "folder-green",
+    "docs": "folder-blue"
+  },
+  
+  // Config Termianal
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.suggest.enableExtensionCompletions": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.splitCwd": "initial",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontFamily": "FiraCode NF",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.fontWeight": "700",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "args": [
+        "-NoLogo"
+      ]
+    }
+  },
+  
+  // Config Langs
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
 
-    // Config Git
-    "git.blame.editorDecoration.enabled": true,
-    "git.blame.statusBarItem.enabled": true
-  }
+  // Config Style
+  "workbench.colorTheme": "Horizon Default",
+  "editor.lineHeight": 1.6,
+  "editor.renderLineHighlight": "gutter",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.fontWeight": "700",
+  "workbench.editor.labelFormat": "short",
+  "workbench.layoutControl.enabled": false,
+  "breadcrumbs.enabled": false,
+  "window.commandCenter": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+
+  // git config
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.statusBarItem.enabled": true
+  
+}
