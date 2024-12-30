@@ -7,15 +7,14 @@ starship init fish | source
 
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
-source ~/.asdf/asdf.fish
 zoxide init fish | source
+echo 'mise activate fish | source' >>~/.config/fish/config.fish
 
 function storePathForWindowsTerminal --on-variable PWD
     if test -n "$WT_SESSION"
         printf "\e]9;9;%s\e\\" (wslpath -w "$PWD")
     end
 end
-
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
