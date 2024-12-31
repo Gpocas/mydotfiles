@@ -12,8 +12,9 @@
   "workbench.tree.indent": 14,
   "workbench.startupEditor": "none",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "symbols",
-  
+  "workbench.colorTheme": "Gruvbox Minor Dark Hard",
+  "workbench.iconTheme": "material-icon-theme",
+
   // Config Files
   "files.autoSave": "afterDelay",
   "files.associations": {
@@ -87,8 +88,7 @@
     "django-html": "html"
   },
 
-  // Config Style
-  "workbench.colorTheme": "Horizon Default",
+  // Config Styles
   "editor.lineHeight": 1.6,
   "editor.renderLineHighlight": "gutter",
   "editor.scrollbar.vertical": "hidden",
