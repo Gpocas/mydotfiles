@@ -21,7 +21,7 @@
     ".env.production": "properties"
   },
   "files.exclude": {
-    "**/.git": false,
+    "**/.git": false
   },
   
   // Config NoteBook
@@ -39,7 +39,7 @@
   "symbols.folders.associations": {
     "docs": "folder-blue",
     "venv": "folder-green",
-    ".venv": "folder-green",
+    ".venv": "folder-green"
     
   },
   
@@ -91,7 +91,7 @@
 
   // git config
   "git.blame.editorDecoration.enabled": true,
-  "git.blame.statusBarItem.enabled": true,
+  "git.blame.statusBarItem.enabled": true
   
   
 }
